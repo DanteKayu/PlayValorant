@@ -1,0 +1,786 @@
+@import url(font);
+
+
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+/*color de header*/
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: #CC2B52;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    align-items: center;
+
+
+}
+.logoriot{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+header ol{
+    display: flex;
+}
+header img {
+    width: 60px;
+
+
+}
+li{
+    margin: 20px;
+
+}
+/*banner*/
+.banner{
+    background-image: url(./media/1366_521.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    
+    
+}
+
+.bienvenidabanner{
+    color: rgb(255, 255, 255);
+    height: 200px;
+    padding: 220px;
+    font-size: 120px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+/*navegacion*/
+
+nav ol li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    
+    
+
+}
+nav ol li {
+    list-style-type: none;
+    padding-left: 0%;
+    font-family: "Boldonse", system-ui;
+    
+
+}
+div{
+    font-family: "Boldonse", system-ui;
+}
+
+form{
+    background-color: #CC2B52;
+}
+div img{
+    height: 600px;
+}
+.primer-texto{
+    color: #CC2B52;
+}
+.segundo-texto{
+    color: #CC2B52;
+}
+.tercer-texto{
+    color: #CC2B52;
+}
+/*pie de pagina*/
+
+footer img {
+    width: 60px;
+    display: flex;
+    justify-content: center;
+
+
+}
+footer{
+    display: flex;
+    background-color:  #34495e;
+    font-family: "Boldonse", system-ui;
+    justify-content: space-around;
+    padding: 200px;
+    
+
+
+}
+.pie-de-pag{
+    display: flex;
+    margin: 0;
+    color: rgb(31, 27, 27);
+}
+
+.bienvenida{
+    border: solid #1d232c 5px;
+    background-color: #1d232c;
+    padding: 100px;
+    background-image: url(./media/cap1.png);
+        background-repeat: no-repeat;
+    background-position: center;
+    background-color: #06060b;
+    background-size: cover;
+    
+
+
+}
+.logo-ig{
+    padding: 10px;
+    margin: 20px;
+}
+.logo-twich{
+    margin: 20px;
+    padding: 10px;
+}
+.valorant-1{
+    color: white;
+}
+.titulo-de-inicio{ 
+    font-family: "Boldonse", system-ui;
+
+}
+.armas-caja{
+    background-image: url(./media/Captura\ de\ pantalla\ \(4\).png);
+    background-position: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    background-color: #06060b;
+    padding: 200px;
+      background-size: cover;
+  background-position: center;
+    
+}
+
+.texto-blanco{
+    color: azure;
+}
+
+.armas-caja img{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 50rem;
+    height: auto;
+
+
+}
+
+
+.titulo-armas{
+    background-color: grey;
+    display: flex;
+    justify-content:center
+    
+}
+.waylay-caja{
+    background-color: #101c1d;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.texto-de-waylay{
+    color: white;
+    padding: 10px;
+}
+.texto-de-waylay1{
+    color: #CC2B52;
+}
+
+.texto-blanco-maps3{
+    color: white;
+}
+
+.texto-blanco-maps4{
+    color: white;
+}
+
+
+.texto-competitivo{
+    background-color: burlywood;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 30px;
+}
+.segundo-texto{
+    display: flex;
+    flex-direction: column;
+
+}
+.video-duelistas{
+    background-color: #1d232c;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 0;
+    transform: scale(1);
+    overflow: auto;
+}
+
+.caja1-agentes2{
+    background-image: url(./media/Captura\ de\ pantalla\ \(6\).png);
+    padding: 100px;
+    margin: 0;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 900px;
+      background-size: cover;
+  background-position: center;
+    
+}
+.titulo-de-inicio-agentes{
+    padding: 200px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+    font-size: 50px;
+    background-image: url(./media/68192d_450e5ed984dc4b1f91ea35c3eae17596~mv2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    background-color: #131525;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    
+
+}
+
+.texto-blanco-maps-vct{
+    color: white;
+
+}
+
+
+.texto-blanco-maps-vct2{
+    color: white;
+
+}
+
+
+
+.titulo-armas{
+    padding: 200px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+    background-image: url(./media/Captura\ de\ pantalla\ \(3\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    background-color: #131525;
+    background-size: cover;
+    font-size: 20px;
+    text-shadow: 2px 5px 5px rgba(0,0,0,0.5);
+      
+}
+
+.texto-competitivo{
+    background-image: url(./media/cap11.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #06060b;
+    background-size: cover;
+}
+
+.segundo-texto{
+    text-shadow: 2px 5px 5px rgba(0,0,0,0.5);
+}
+.waylay-caja{
+    background-image: url(./media/waylay-wallpaper_q7bd.1280\ -\ copia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #06060b;
+    background-size: cover;
+}
+.roles1{
+    background-image: url(./media/cas14.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    background-color: #131525;
+    background-size: cover;
+    padding: 200px;
+
+
+
+}
+
+.roles-explicacion{
+    background-image: url(./media/cas14.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    background-color: #131525;
+    background-size: cover;
+    padding: 410px;
+    
+}
+.rolesimg{
+    display: flex;
+    justify-content: center;
+}
+.texto-blanco-roles{
+    color: rgb(255, 255, 255);
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.titulo-de-inicio-roles{
+    font-family: "Boldonse", system-ui;
+    padding: 200px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-image: url(./media/Captura\ de\ pantalla\ \(15\).png);
+    text-shadow: 2px 5px 5px rgba(0,0,0,0.5);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    background-color: #131525;
+    background-size: cover;
+    padding: 200px;
+}
+.titulo-de-inicio-mapas{
+    font-family: "Boldonse", system-ui;
+    padding: 200px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-image: url(./media/Captura\ de\ pantalla\ \(16\).png);
+    text-shadow: 2px 5px 5px rgba(0,0,0,0.5);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    background-color: #131525;
+
+
+}
+
+.segunda-imagen-maps{
+    padding: 90px;
+    background: #131525;
+    text-align: center;
+    background-image: url(./media/Captura\ de\ pantalla\ \(17\).png);
+    background-position: center;
+    text-align: center;
+background-repeat: no-repeat;
+    background-position: center;
+    background-color: #06060b;
+    background-size: cover;
+}
+.texto-blanco-maps{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.segunda-imagen-maps img{
+    box-shadow: 2px 20px 5px rgba(0,0,0,0.5);
+}
+.tercera-imagen-maps{
+    background-image: url(./media/f8b495fc929dacf29932f279898e59d5c33869e2-2554x1383.gif);
+    padding: 200px;
+    margin: 0;
+
+}
+.imagen-mapas-3{
+    display: block;
+    margin: auto;
+
+}
+.titulo-de-inicio-vct{
+    font-family: "Boldonse", system-ui;
+    padding: 200px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-image: url(./media/Captura\ de\ pantalla\ \(18\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #06060b;
+    background-size: cover;
+    
+
+}
+
+.texto-blanco2{
+    color: white;
+}
+
+.texto-blanco3{
+    color: white;
+}
+.caja-vct{
+    padding: 200px;
+    background-color: #06060b;
+    background-image: url(./media/Captura\ de\ pantalla\ \(19\).png);
+    background-position: center;
+    text-align: center;
+}
+.caja-vct1{
+    padding: 200px;
+    background-image: url(./media/Captura\ de\ pantalla\ \(19\).png);
+    background-position: center;
+    text-align: center;
+    background-color: #06060b;}
+
+.bienvenida{
+        display: grid;
+        grid-template-areas: 
+        "imagen1 imagen1 texto"
+        "titulo1 titulo1 titulo2"
+        "texto1 texto1 texto1";
+        
+        grid-template-columns: 25% 40% 25%;
+
+        grid-template-rows: 700px 100px 100px  ;
+}
+
+
+.texto-blanco-roles1{
+    color: white;
+
+}
+
+.texto-blanco-roles2{
+    color: white;
+}
+
+.texto-blanco-roles3{
+    color: white;
+}
+
+.texto-blanco-maps2{
+    color: white;
+}
+
+.imag1{
+    grid-area: imagen1;
+}
+
+.primer-texto{
+    grid-area: titulo1;
+}
+
+.valorant-1{
+    grid-area: texto1;
+}
+
+    /* CAJA DE COMPETITIVO*/
+.texto-competitivo{
+        display: grid;
+        grid-template-areas: 
+        "imagencomp imagencomp vaciocomp"
+        "imagencomp imagencomp titulocomp"
+        "imagencomp imagencomp textocomp";
+
+        grid-template-columns: 25% 40% 25%;
+
+        grid-template-rows: 200px 150px 300px  ;
+    }
+
+.imagen-competitivos{
+        grid-area: imagencomp;
+    }
+
+.segundo-texto{
+        grid-area: titulocomp;
+    }
+
+.texto-comp{
+        grid-area: textocomp;
+    }
+
+    /*CAJA DE WAYLAY */
+.waylay-caja{
+        display: grid;
+        grid-template-areas: 
+        "imagenway imagenway tituloway"
+        "imagenway imagenway textoway"
+        "imagenway imagenway textoway"
+        ;grid-template-columns: 25% 40% 25%;
+
+        grid-template-rows: 100px 150px 300px  ;
+    }
+
+ .waylayimagen{
+        grid-area: imagenway;
+    }
+.texto-de-waylay1{
+        grid-area: tituloway;
+
+    }
+    
+.texto-de-waylay{
+     grid-area: textoway;
+}
+
+.armas-caja{
+    display: grid;
+    grid-template-areas:
+    "imagenarm vacio1 imagenarm2"
+    "imagenarm vacio2 imagenarm2"
+    "tituloarm vacio3 tituloarm2"
+    "textoarmo vacio4 textoarm2" ;
+        ;grid-template-columns: 5fr 5fr ;
+
+        grid-template-rows: 500px 100px 100px  ; 
+}
+
+.armas-caja img{
+    width: 100%;
+    height: 100%;
+}
+
+.armas-tienda{
+    grid-area: imagenarm;
+}
+
+.vandalx{
+    grid-area: imagenarm2;
+}
+
+.tituloarm{
+    grid-area: tituloarm;
+}
+
+.textoarm{
+    grid-area: textoarmo;
+}
+
+.texto-blanco2{
+    grid-area: tituloarm2;
+}
+
+.texto-blanco3{
+    grid-area: textoarm2;
+}
+.caja1-agentes2{
+    display: grid;
+    grid-template-areas: 
+    "imagen1a imagen1a imagen1a"
+    "titulo1a titulo1a titulo1a"
+    "texto1a texto1a texto1a";
+    ;grid-template-columns: 25% 40% 25%;
+
+    grid-template-rows: 700px 100px 100px    
+}
+.imagen-agentes{
+    grid-area: imagen1a;
+
+}
+.texto1-agentes{
+    grid-area: titulo1a;
+    padding: 30px;
+}
+
+.texto-de-agentes{
+    grid-area: texto1a;
+}
+
+.caja1-agentes2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.roles1{
+    display: grid;
+    grid-template-areas:
+    "imagenr imagenr imagenr"
+    "titulor titulor titulor"
+    "textor textor textor"
+    "textor2 textor2 textor2"
+    ;grid-template-columns: 25% 40% 25%;
+
+    grid-template-rows: 700px 100px 50px 50px  
+    ;
+}
+.roles-img{
+    grid-area: imagenr;
+    height: 100%;
+    width: 100%;
+}
+
+.texto-blanco-roles1{
+    grid-area: titulor;
+}
+
+.texto-blanco-roles2{
+    grid-area: textor;
+}
+
+.texto-blanco-roles3{
+    grid-area: textor2;
+}
+
+.segunda-imagen-maps{
+    display: grid;
+    grid-template-areas: 
+    "imagenmp imagenmp imagenmp"
+    "titulomp titulomp titulomp"
+    "textomp textomp textomp";
+    ;grid-template-columns: 25% 40% 25%;
+
+    grid-template-rows: 700px 50px 50px 50px  
+    ;
+
+}
+
+.maps-firts{
+    grid-area: imagenmp;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+}
+
+.texto-blanco-maps{
+    grid-area: titulomp;
+
+}
+
+.texto-blanco-maps2{
+    grid-area: textomp;
+}
+
+.tercera-imagen-maps{
+    display: grid;
+    grid-template-areas: 
+    "imagenmp2 imagenmp2 imagenmp2"
+    "titulomp2 titulomp2 titulomp2"
+    "textomp2 textomp2 textomp2";
+    ;grid-template-columns: 25% 40% 25%;
+
+    grid-template-rows: 700px 50px 50px 50px  
+}
+
+.texto-blanco-maps3{
+    grid-area: titulomp2;
+}
+
+.texto-blanco-maps4{
+    grid-area: textomp2;
+}
+
+.imagen-mapas-3{
+    grid-area: imagenmp2;
+}
+
+.caja-vct{
+    display: grid;
+    grid-template-areas: 
+    "imgvct imgvct imgvct"
+    "titulovct titulovct titulovct"
+    "textovct textovct textovct";
+    ;grid-template-columns: 25% 40% 25%;
+
+    grid-template-rows: 700px 50px 50px    
+}
+
+.imagen-vct1{
+    grid-area: imgvct;
+    height: 100%;
+    width: 100%;
+}
+
+.texto-blanco-maps-vct{
+    grid-area: titulovct;
+}
+
+.texto-blanco-maps-vct2{
+    grid-area: textovct;
+}
+
+/*responsive*/
+
+    
+
+.banervalorat{
+    display: flex;
+    padding: 100px;
+    justify-content:center;
+    color: white;
+    font-size: 5rem;
+
+
+    
+}
+
+
+.banervalorat{
+    grid-area: vlo2;
+}
+/*mobile*/
+
+@media (max-width:480px){
+    nav {
+        width: 100%;
+    }
+    header{
+        flex-direction: column;
+        align-content: center;
+    }
+    li {
+        margin: 10px;
+    }
+    .bienvenida{
+        padding: 0;
+        grid-area: 
+        "imagen1"
+        "titulo1"
+        "titulo2"
+        "texto1";
+       grid-template-columns: 1fr;
+
+       grid-template-rows: 300px 100px  ; 
+    }
+
+    .imag1{
+        width: 100%;
+        height: 100%;
+    }
+    .banervalorat {
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        font-size: 2rem;
+
+    }
+    .banner{
+        padding: 50px;
+    }
+    .texto-competitivo{
+        padding: 30px;
+        grid-area:
+        "imagencomp"
+        "titulocomp"
+        "textocomp" ;
+         grid-template-columns: 1fr;
+
+         grid-template-rows: 100px 500px 500px
+    }
+    .imagen-competitivos{
+        height: 100%;
+    }
+}
