@@ -211,6 +211,7 @@ footer{
     display: flex;
     flex-direction: row-reverse;
     padding: 30px;
+    height: 100%;
 }
 .segundo-texto{
     display: flex;
@@ -475,6 +476,7 @@ background-repeat: no-repeat;
 }
 
 .imag1{
+    display: flex;
     grid-area: imagen1;
 }
 
@@ -493,10 +495,9 @@ background-repeat: no-repeat;
         "imagencomp imagencomp vaciocomp"
         "imagencomp imagencomp titulocomp"
         "imagencomp imagencomp textocomp";
-
-        grid-template-columns: 25% 40% 25%;
-
-        grid-template-rows: 200px 150px 300px  ;
+        width: 100%;
+         grid-template-columns: 25% 40% 25%;
+         grid-template-rows: 200px 150px 300px  ;
     }
 
 .imagen-competitivos{
@@ -746,19 +747,20 @@ background-repeat: no-repeat;
     }
     .bienvenida{
         padding: 0;
-        grid-area: 
+        grid-template-areas: 
         "imagen1"
         "titulo1"
         "titulo2"
         "texto1";
        grid-template-columns: 1fr;
 
-       grid-template-rows: 300px 100px  ; 
+       grid-template-rows: 300px 50px 50px 200px  ; 
     }
 
     .imag1{
         width: 100%;
         height: 100%;
+    
     }
     .banervalorat {
         padding: 0;
@@ -770,17 +772,44 @@ background-repeat: no-repeat;
     .banner{
         padding: 50px;
     }
-    .texto-competitivo{
+    .primer-texto{
         padding: 30px;
-        grid-area:
+        font-size: 1rem;
+    }
+    .valorant-1{
+        padding: 30px;
+        font-size: 0.7rem;
+
+    }
+    .texto-competitivo{
+        padding: 5px;
+        grid-template-areas: 
         "imagencomp"
         "titulocomp"
         "textocomp" ;
          grid-template-columns: 1fr;
 
-         grid-template-rows: 100px 500px 500px
+         grid-template-rows: 350px 100px 200px
     }
-    .imagen-competitivos{
+   
+    .texto-competitivo img{
+        grid-area: imagencomp;
+        width: 100%;
         height: 100%;
     }
+    .waylay-caja{
+        grid-template-areas: 
+        "imagenway"
+        "tituloway"
+        "textoway";
+        grid-template-columns: 1fr;
+
+        grid-template-rows: 350px 100px 200px;
+
+    }
+    .waylayimagen{
+        width: 100%;
+        height: 100%;
+    }
+
 }
